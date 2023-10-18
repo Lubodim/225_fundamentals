@@ -1,9 +1,9 @@
 #
 # print(chr(65))
 #
-# print(ord('a'))
-
-for i in range(500_000):
-    if i % 50:
+# print(ord('퟿'))
+#
+for i in range(55295 +1):
+    if i % 50 == 0:
         print()
-    print(chr(i), end=' ')
+    print(chr(i), end=', ')
