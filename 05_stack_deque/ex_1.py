@@ -1,7 +1,7 @@
 # 1, 2, 3, 4, 5, 6, 7, 8, 9
 
 # 6
-print(*input().split(', ')[::-1])
+# print(*input().split(', ')[::-1])
 
 
 
@@ -11,8 +11,8 @@ print(*input().split(', ')[::-1])
 # print(' '.join(str(t) for t in text[::-1]))
 
 # 4
-# text = [int(t) for t in input().split(',')]
-# print(*text[::-1])
+text = [int(t) for t in input().split(',')]
+print(text[::-1])
 
 
 # 3
